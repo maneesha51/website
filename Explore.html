@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery with Product Details</title>
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .image-container img {
+            width: 100%; /* Ensure images take the full width of the column */
+            height: auto; /* Keep image aspect ratio */
+        }
+        .header {
+            text-align: center; /* Center align the header text */
+            margin-bottom: 20px; /* Space between header and images */
+            
+        }
+        .product-details {
+            text-align: center; /* Center align the product details */
+        }
+        .price {
+            font-weight: bold; /* Make price bold */
+            color: green; /* Set price color */
+        }
+        body{
+            background-image: url('Images/ExplorebgImage.jpg');            
+            background-size:cover;
+            width:1500px;
+        }
+        .h1{
+            font-style: oblique;
+        }
+        .btn {
+           display: inline-block; /* Allows padding and border */
+           padding: 5px 10px;    /* Space inside the box */
+           border: 1px solid #333; /* Box border */
+           background-color: #f5f5f5; /* Box background color */
+           color: #333;           /* Text color */
+           text-decoration: none; /* Remove underline */
+           border-radius: 3px;   
+           margin-left: 80px;
+        }
+
+.btn:hover {
+    background-color: #ddd; /* Change background on hover */
+}
+       
+    </style>
+</head>
+<body >
+
+    <a href="Home.html" style="color: rgb(10, 2, 2); padding: 5px; border-radius: 5px; margin-left: 15px; ">Back to Home</a>
+
+    <div class="container mt-5">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Hardware Store</h1>
+
+            <marquee widht="50" id="scroll">!!A electronic store is offering some discount on items. Riti purchases
+                 some items with an original price
+               </marquee>
+
+        </div>
+
+        <!-- Image Grid Section -->
+        <div class="row justify-content-center">
+            <div class="d-flex flex-wrap justify-content-center image-container">
+                <!-- Each product with image, name, price, and quantity -->
+                <div class="col-6 col-md-3 p-2">
+                    <img src="Images/Explore1.jpeg" alt="Digital Watch" class="img-fluid">
+                    <h3>Digital Watch</h3>
+                    <div class="price"> ₹250 </div>
+                    <div class="Qty">
+                        <span>quantity : </span>
+                        <input type="number" min="" max="1000" placeholder="0">
+                        <span> </span>
+                        </div>
+                        <br>
+                    <a href="cart.html" class="btn">Add to Cart</a>
+                </div>
+                <div class="col-6 col-md-3 p-2">
+                    <img src="Images/Explore2.jpeg" alt="Headest" class="img-fluid">
+                    <h3>Headest</h3>
+                    <div class="price"> ₹300 </div>
+                    <div class="quantity">
+                        <span>Qty : </span>
+                        <input type="number" min="" max="1000" placeholder="0" >
+                        <span></span>
+                    </div>
+                    <br>
+                    <a href="cart.html" class="btn">Add to Cart</a>
+                </div>
+                <div class="col-6 col-md-3 p-2">
+                    <img src="Images/Explore3.jpeg" alt="Earbuds" class="img-fluid">
+                    <h3>Earbuds</h3>
+                    <div class="price"> ₹500 </div>
+                    <div class="quantity">
+                        <span>Qty : </span>
+                        <input type="number" min="" max="1000" placeholder="0">
+                        <span>  </span>
+                    </div>
+                    <br>
+                    <a href="cart.html" class="btn">Add to Cart</a>
+                </div>
+                <div class="col-6 col-md-3 p-2">
+                    <img src="Images/Explore4.jpeg" alt="Speaker" class="img-fluid">
+                    <h3>Speaker</h3>
+                    <div class="price"> ₹350 </div>
+                    <div class="quantity">
+                        <span>Qty : </span>
+                        <input type="number" min="" max="1000"placeholder="0">
+                        <span>  </span>
+                    </div>
+                    <br>
+                    <a href="cart.html" class="btn">Add to Cart</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

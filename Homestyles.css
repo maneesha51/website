@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+body{
+    background-image: url("https://media.istockphoto.com/id/1400570369/photo/old-computers-digital-tablets-mobile-phones-many-used-electronic-gadgets-devices-broken.jpg?s=612x612&w=0&k=20&c=hTH7vKZphyeXnT-MM484pS_54GH6j9O7Ev2QyMkxzTQ=");
+    background-size: cover;
+    height:80px;
+    margin-top:100px;
+}
+  .logo{
+    color:var(--green);
+    font-weight: bolder;
+    font-size: 3rem;
+  }
+  h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  
+  .header-1 .search-box-container{
+    display: flex;
+    height:5rem;
+  }
+  
+  .header-1 .search-box-container #search-box{
+    height: 100%;
+    width:100%;
+    padding:1rem;
+    font-size: 2rem;
+    color:#333;
+    border:.1rem solid rgba(0,0,0,.3);
+    text-transform: none;
+    border-radius: 10px;
+  }
+  
+  .header-1 .search-box-container label{
+    height: 50%;
+    width:8rem;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    background:var(--green);
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .header-1 .search-box-container label:hover{
+    background:var(--black);
+  }
+
+  .search-box-container {
+    position: relative;
+    display: inline-block;
+   
+  }
+input[type="search"] {
+    padding-right: 30px; /* Leave space for the icon */
+}
+.nav-link {
+  font-size: 20px;   
+  padding: 10px 15px; 
+  color:black
+}
+.nav justify-content-end{
+  margin-right: 50px;
+
+}
+.nav-item{
+  margin-right: 30px;
+}
+.nav justify-content-end .nav-item:hover{
+  background-color: #d25a0a;
+}
+
+.home{
+ 
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.home .content{
+  flex:1 1 40rem;
+  margin-left: 700px;
+  margin-top: 90px;
+}
+
+.home .content span{
+  font-size: 5rem;
+  color:#160f0f;
+  font-style: oblique;
+}
+
+.home .content h3{
+  font-size: 10rem;
+  font-style: italic;
+  color:var(--black);
+  margin-left: 200px;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-left: 100px;
+
+}
+
